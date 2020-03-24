@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!--单元测试不记录日志-->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+    <!--包含SpringBoot的默认配置文件-->
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+</configuration>
